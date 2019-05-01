@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width,user-scalable=0"/>
+		<title>Teste Desenvolvedor FrontEnd</title>
+		
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link  rel = " stylesheet "  href = " https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css " >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"  href="css/style.css">
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   
+   <!--validação formulário-->
+    <script type="text/javascript">
+      function validar() {
+         var name = formulario.name.value;
+         var email = formulario.email.value;
+         var message = formulario.message.value;
+
+         if (name =="") {
+          alert('Necessário preencher campo name');
+          formulario.name.focus();
+          return false;
+         }
+
+
+         if (email =="") {
+          alert('Necessário preencher campo email');
+          formulario.email.focus();
+          return false;
+         }
+
+
+         if (message =="") {
+          alert('Necessário preencher campo message');
+          formulario.message.focus();
+          return false;
+         }
+
+         sucess();
+      }
+      function sucess() {
+       alert('Formulario enviado com sucesso!')
+      }
+
+    </script>
+	</head>
+
+<body>  
+   <header>  
+	    <div class="painel1">
+       	  <div class="fr2">
+		      		<img src="images/Lorem ipsum dolor  sit amet, consectetur..png"
+		          		 style="margin-top:26px;margin-left:50px;">
+		      </div>
+        
+      <div class="container">
+		      <div class="fr">
+            <img class="img-responsive logo1 " src="images/logo1.jpg">
+					</div>
+            <!--animação setas-->
+				 	 <div class="arrow">
+			    		<br> <img class="animated infinite fadeInDown delay-1s" src="images/Arrow3.png" ><br>
+				   		 <img class="animated infinite fadeInDown delay-3s"src="images/Arrow2.png"><br>
+				   		 <img class="animated infinite fadeInDown delay-5s"src="images/Arrow1.png">
+			     </div>
+		  </div>
+    </div>
+	</header>
+
+  <section>
+			 <div class="container">
+	     	<div class="painel2">
+	  			  <div class="navbar-item logo" role="navigation" aria-label="main navigation">
+    			  	<a href=""><img src="images/logo2.jpg"></a></div>
+    			   <div class="navbar-item  menu">	
+                  <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" 
+                           data-toggle="collapse" data-target="#links-menu" 
+                           style="background-color: white; border-color: #dadada">
+                           <i class="material-icons">menu</i>
+                   </button>
+                  </div>
+     
+               <nav id="links-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                   <li><a href="#"><strong>Home</strong></a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+               </nav>
+  				  	</div>
+
+     				    <div class="navbar-item ">
+     				    	<a href="" class="navbar-item menu1"><img src="images/LinkedIn Icon.png"></a>
+      					  <a href="" class="navbar-item menu1"><img src="images/Twitter icon.png"></a>
+     		        	<a href="" class="navbar-item menu1"><img src="images/Facebook Icon.png"></a> 
+     		       </div>  
+		    </div>
+
+		      <div class="fin"><h2> Finch <span style="color:#e61757">Soluções</span></h2></div>
+     		     <div class="fin1"> Creative Studio</div>
+     			     <div class="stro"><img src="images/Stroke.png">
+     			 				<div class="columns is-mobile is-centered">
+ 				             <div class="column is-half">
+   					            <p class="bd-notification is-primary"><br>
+     					              Lorem ipsum dolor sit amed, consectetur adipiscing elit.<br> 
+     			 		              vulputate, vehicula nisi vitae, lobortis ante. Praesent 
+     			 		              solades iaculis ultricies</p><br><br><br>
+  				          </div>
+				          </div></div>
+
+		
+			 <div class="row">             
+    				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 row2">
+                  <div class="col-md-12" >
+                    <img class="img-responsive" src="images/Icon.png" alt="" style="margin-left: 140px;" /><br>
+                   </div><br>
+                        
+                  <div class="col-md-12 top">
+                    <h5 class="card-title"> <p><strong>Some fancy</strong> <span style="color:#e61757"> colors</span></p></h5>
+                    <p class="bd-notification is-primary">
+     						      	Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+     			 				      at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p><br><br>
+                  </div> 
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 row2">
+                 <div class="col-md-12">
+                    <img class="img-responsive" src="images/Icon2.png" alt="" style="margin-left: 140px;"/><br>
+                  </div><br>
+                        
+                  <div class="col-md-12 top">
+                    <h5 class="card-title"><p><strong>Enough</strong> <span style="color:#e61757">coffe breaks</span></p></h5>
+   							     <p class="bd-notification is-primary">
+     						         	Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+     			 				         at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p><br><br>
+                  </div>  
+            </div>
+
+                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 row2">
+                	    <div class="col-md-12">
+                           <img class="img-responsive" src="images/Icon3.png" alt="" style="margin-left: 140px;"/><br>
+                        </div><br>
+                        
+                        <div class="col-md-12 top">
+                           <h5 class="card-title"><p><strong>A little bit of</strong> <span style="color:#e61757">magic</span></p></h5>
+   					 		           	<p class="bd-notification is-primary">
+     							      	     Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+     			 						          at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p>
+                        </div>  
+                 </div>
+        </div>
+        </div>
+
+<div class="rowback2">
+    <div class="container">
+      <div class="row">             
+         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 "> 
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left media-middle">
+                 <br><br><img src="images/IconEmpty.png" class="media-object"><br><br><br>
+                 </div>
+                 <div class="media-body"><br><br>
+                 <img class="img-responsive " src="images/1085.png" alt="" /><br>
+                   <img class="img-responsive" src="images/Empty cups .png" alt="" /><br><br><br><br>
+              </div>
+            </div>
+          </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-middle">
+                <br><br>  <img src="images/IconHappy.png" class="media-object"><br>
+            </div>
+              <div class="media-body"><br><br>
+               <img class="img-responsive" src="images/102.png" alt="" /><br>
+                    <img class="img-responsive" src="images/Happy clients.png" alt="" /><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-middle">
+                <br><br>  <img src="images/IconBBQ.png" class="media-object"><br>
+            </div>
+              <div class="media-body"><br><br>
+               <img class="img-responsive" src="images/25.png" alt="" /><br>
+                    <img class="img-responsive" src="images/BBQ meetings.png" alt="" /><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-middle">
+                <br><br>   <img src="images/IconCoktail.png" class="media-object">
+            </div>
+              <div class="media-body"><br><br>
+               <img class="img-responsive" src="images/29.png" alt="" /><br>
+                <img class="img-responsive" src="images/Cocktail parties.png" alt="" />
+              </div></div>
+        </div>
+     </div>
+	</div>
+</div>
+</div>
+
+   <div class="fin"><br><br>
+           <h1>Our Services</h1></div>
+          <div class="fin1">With Passion & Experience</div>
+          <div class="stro"><img src="images/Stroke.png"></div>
+
+<div class="container"><div class="row">             
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12">
+          <div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p><br><br>
+              </div>
+            </div>
+        </div>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p><br><br>
+              </div></div>
+        </div>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 "> 
+        <div class="col-md-12"><div class="media">
+            <div class="media-left media-top">
+                 <img src="images/Iconpc.png" class="media-object">
+            </div>
+              <div class="media-body">
+               <h4 class="media-heading"> <p>Dictum tincidunt<a href=""> <span style="color:#e61757">diam</span></a></p>
+                 <img src="images/Stroke.png"></h4>
+                    <p>Lorem ipsum dolor sit amed,<br> consectetur adipiscing elit.Integer<br> 
+                       at purus vulputate, vehicula nisi<br> vitae, lobortis ante.</p></p>
+              </div></div>
+        </div>
+     </div>
+</div>
+</section>
+		
+    <div class="backf1"><br><br>
+      <div class="container">
+        <h2 class="bf1">Contact</h2>  
+          <h3 class="bf2">We would really love to hear from you!</h3>
+          <div class="stro"><img src="images/Stroke.png"></div>
+            
+
+        
+     <div class="formu">
+      <div class="row">
+       <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+         <form name="formulario" action="" method="POST">
+            
+             <div class="form-group col-md-12"><br>
+              <label>Your name</label><br>
+              <input type="text" name="name">
+             </div>
+
+             <div class="form-group col-md-12">
+               <label>Your email</label><br>
+               <input type="email" name="email">
+             </div>
+
+             <div class="form-group col-md-12">
+                <label>Subject</label><br>
+                <input type="text" >
+             </div>
+
+             <div class="form-group col-md-12">
+                <label>Message</label><br>
+                <input type="textarea" name="message">
+             </div>
+
+             <div class="form-group col-md-7"><br>
+                 <input type="submit" value="Send" onclick="return validar()">
+             </div></form>
+
+
+        </div>
+
+        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 ">
+          <div class="container"><br><br>
+          <h4 class="titulo">Contactinfo</h4>
+          <h6 class="texto">Lorem ipsum color sit amet , consectetur<br>
+            adipiscing elit. Integer at purus vulputate.<br><br>
+            Vehicula nisi vitae, lobortis ante. Praesent<br>
+            sodales iaculis ultricies.</h6><br><br>
+
+
+            <div class="media">
+               <div class="media-left media-top">
+                     <img src="Images/Iconlocal.png" class="media-object">
+               </div>
+               <div class="media-body">
+                    <h6 class="texto1"> Rue de Halle 245<br>1000 Brussels</h6><br><br>
+               </div>
+            </div>
+
+            <div class="media">
+               <div class="media-left media-top">
+                     <img src="Images/IconTel.png" class="media-object">
+               </div>
+               <div class="media-body">
+                    <h6 class="texto1"> 03 123 45 67<br> 0412 345 678</h6><br><br>
+               </div>
+            </div>
+
+            <div class="media">
+               <div class="media-left media-top">
+                     <img src="Images/Iconemail.png" class="media-object">
+               </div>
+               <div class="media-body">
+                    <h6 class="texto1"> info@roran.com<br>question@roran.com</h6>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+     </div>
+   </div>
+ </div>       
+
+     <div class="backf2"></div>
+     <footer>
+          <h6>© 2018 Finch Soluções All rigths reserved</h6>
+     </footer>
+
+</body></html>
+ 				
+	
